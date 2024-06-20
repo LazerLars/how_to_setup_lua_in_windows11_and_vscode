@@ -176,7 +176,7 @@ LUA is popluar for making games, so if that's where you want to dive in then i r
 
 ![](files/img/Löve2d_logo.png)   
 
-It's a really nice libary for making 2d games with LUA. I created a [inLOVE2d](https://github.com/sabelkat1/inLove2d) where you can find boilerplate code to get started and as well how to install and setup LÖVE on your windows machine with VScode.    
+It's a really nice libary for making 2d games with LUA. I created a project: [inLOVE2d](https://github.com/sabelkat1/inLove2d) where you can find boilerplate code to get started with LÖVE and as well how to install and setup LÖVE on your Windows machine with VScode.    
 
 ![](files/img/inLove2d_160x160.png)
 
