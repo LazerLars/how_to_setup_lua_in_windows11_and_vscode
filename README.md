@@ -184,3 +184,5 @@ It's a really nice libary for making 2d games with LUA. I created a [inLOVE2d](h
 ### 
 
 I made this guide since i struggled getting LUA setup on my machine the first time. Credit goes out to [Atoz Programming Tutorials](https://www.youtube.com/watch?v=pC1fsQRX68I) making my first LUA install a good experince :)
+
+Feel free to make a pull request if you have anything nice to add ma dudes and dudeins :) 
