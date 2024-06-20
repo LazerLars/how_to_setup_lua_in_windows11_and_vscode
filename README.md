@@ -170,3 +170,17 @@ If you want to simply run whatever file you are located in you can modify the ar
     ]
   }
 ```
+
+# LUA for game development
+LUA is popluar for making games, so if that's where you want to dive in then i recommend [LÖVE](https://love2d.org).
+
+![](files/img/Löve2d_logo.png)   
+
+It's a really nice libary for making 2d games with LUA. I created a [inLOVE2d](https://github.com/sabelkat1/inLove2d) where you can find boilerplate code to get started and as well how to install and setup LÖVE on your windows machine with VScode.    
+
+![](files/img/inLove2d_160x160.png)
+
+
+### 
+
+I made this guide since i struggled getting LUA setup on my machine the first time. Credit goes out to [Atoz Programming Tutorials](https://www.youtube.com/watch?v=pC1fsQRX68I) making my first LUA install a good experince :)
