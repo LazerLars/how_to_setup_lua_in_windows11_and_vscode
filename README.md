@@ -1,10 +1,12 @@
 # Install LUA on Windows 11
 This is a guide on how to setup LUA in Windows 11 and make a VSCODE setup
-## 
+## Quick step
 Steps between the ".---------------." can be skipped if you just click this link [Lua -> Download -> Binaries -> Download](https://luabinaries.sourceforge.net/download.html)
 
 .------------------------------------------------------------------------------------------------------------------------.  
- Go to [lua.org](https://lua.org)  
+Follow **Quick step** to skip this:  
+
+Go to [lua.org](https://lua.org)  
 
 Click Download  
 
@@ -19,7 +21,7 @@ Click on Download
 
 ![Binaries](files/img/lua_web_02.png)  
 .------------------------------------------------------------------------------------------------------------------------. 
-.------------------------------------------------------------------------------------------------------------------------. 
+
     
 Click on Download:  
 
