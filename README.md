@@ -63,7 +63,7 @@ Go edit enviroment variables (press windows key search for env)
 
 Add the folder path to system variables path. (Select the one under system variables named path and press "edit" and then  "new")  
 
-![](files/img/find_path__press_edit.png)
+![](files/img/find_path__press_edit_00.png)
 ![](files/img/add_lua_to_path.png)
 
 Press ok
