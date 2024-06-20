@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "lua-local",
+        "request": "launch",
+        "name": "Debug",
+        "program": {
+          "command": "C:/lua/lua.exe"
+        },
+        "args": [
+          "main.lua",
+          "debug"
+        ]
+      },
+      {
+        "type": "lua-local",
+        "request": "launch",
+        "name": "Release",
+        "program": {
+          "command": "C:/lua/lua.exe"
+        },
+        "args": [
+          "main.lua"
+        ]
+      }
+    ]
+  }
+  

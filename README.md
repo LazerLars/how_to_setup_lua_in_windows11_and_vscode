@@ -77,3 +77,96 @@ Now you successfully installed LUA on your windows machine.
 If powershell writes the below then you didn't install it correctly. Then retry the steps and see where the error is :)  
 
 ![](files/img/lua_not_installed_correctly_00.png)
+
+# Setup LUA with VScode
+
+Create a new project/folder and open that in vs code  
+
+## Install extensions
+![](files/img/vscode/install_extensions.png)
+
+## Set up debugging
+Create a main.lua file and add the below and press save. The debug part is to activate the debug functionality provided by the Local Lua Debugger Extension.
+```LUA
+if arg[2] == "debug" then
+    require("lldebugger").start()
+end
+
+print("it's Wednesday ma dudes")
+```
+
+
+## Setup launch.json for LUA
+Then you press f5 when you have the main.lua file open, and then you will encounter an error: "You must set "lua-local.interpreter" in your settings....". Then VScode will generate a fodler names vscode with at launch.json file in
+
+![](files/img/vscode/vs_code_first_f5.png)
+
+Then you replace the content of the file with this:
+
+```JSON
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "lua-local",
+        "request": "launch",
+        "name": "Debug",
+        "program": {
+          "command": "C:/lua/lua.exe"
+        },
+        "args": [
+          "main.lua}",
+          "debug"
+        ]
+      },
+      {
+        "type": "lua-local",
+        "request": "launch",
+        "name": "Release",
+        "program": {
+          "command": "C:/lua/lua.exe"
+        },
+        "args": [
+          "main.lua"
+        ]
+      }
+    ]
+  }
+  
+```
+
+Now if you press f5 again you will se the print msg will print to the console. This setup run the main.lua file everytime you press f5.
+![](files/img/vscode/first_lua_success.png)
+
+If you want to simply run whatever file you are located in you can modify the args part so it looks like this 
+
+```JSON
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "lua-local",
+        "request": "launch",
+        "name": "Debug",
+        "program": {
+          "command": "C:/lua/lua.exe"
+        },
+        "args": [
+          "${file}",
+          "debug"
+        ]
+      },
+      {
+        "type": "lua-local",
+        "request": "launch",
+        "name": "Release",
+        "program": {
+          "command": "C:/lua/lua.exe"
+        },
+        "args": [
+          "${file}"
+        ]
+      }
+    ]
+  }
+```
