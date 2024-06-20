@@ -179,7 +179,7 @@ If you want to simply run whatever file you are located in you can modify the ar
 ```
 
 # LUA for game development
-LUA is popluar for making games, so if that's where you want to dive in then i recommend [LÖVE](https://love2d.org).
+LUA is popular for making games, so if that's where you want to dive in then i recommend [LÖVE](https://love2d.org).
 
 ![](files/img/Löve2d_logo.png)   
 
