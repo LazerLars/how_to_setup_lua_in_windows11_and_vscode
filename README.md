@@ -1,2 +1,79 @@
-# how_to_setup_lua_in_windows11_and_vscode
+# Install LUA on Windows 11
 This is a guide on how to setup LUA in Windows 11 and make a VSCODE setup
+
+Go to [lua.org](https://lua.org)  
+
+Click Download  
+
+
+![Lua.org](files/img/lua_web_00.png)
+
+Click on Binaries  
+
+![Lua.org/download](files/img/lua_web_01.png)
+
+Click on download  
+
+![Binaries](files/img/lua_web_02.png)  
+->  
+download:  
+
+lua-5.4.2_Win64_bin.zip	Windows x64 Executables 
+
+and
+
+lua-5.4.2_Win64_dllw6_lib.zip	Windows x64 DLL and Includes
+(MingW-w64 6 Built)  
+
+![Download files](files/img/lua_web_03.png)
+
+This was the latest build as of 2024-06-20, so if newer are avalible i suggest you download those instead.  
+
+Extract both folders  
+
+![Zip files](files/img/download_zip.png)
+![Content of folder content](files/img/content_of_the_dl_folders.png)
+
+Move content from one folder to the other  
+
+![](files/img/copy_everything_to_one_folder.png)
+
+Rename .exe files. They usually have version number added, we dont want that:
+They could look like:  
+wlua54.exe -> rename to -> wlua.exe  
+luac54.exe -> rename to -> luac.exe  
+lua65.exe -> rename to -> lua.exe  
+
+![](files/img/rename_exe_files.png)
+
+Rename folder to lua  
+
+![](files/img/rename_folder_to_lua.png)
+
+Copy folder to c:/  
+
+Like this -> c:/lua  
+
+![](files/img/copy_lua_folder_to_c_drive.png)
+
+
+Go edit enviroment variables (press windows key search for env)  
+
+![](files/img/find_edit_env_vars.png)
+
+Add the folder path to system variables path. (Select the one under system variables named path and press "edit" and then  "new")  
+
+![](files/img/find_path__press_edit.png)
+![](files/img/add_lua_to_path.png)
+
+Press ok
+
+Open powershell or cmd and write lua to see if you got it installed.
+
+![](files/img/open_powershell_write_lua.png)
+
+Now you successfully installed LUA on your windows machine.
+
+If powershell writes the below then you didn't install it correctly. Then retry the steps and see where the error is :)  
+
+![](files/img/lua_not_installed_correctly_00.png)
