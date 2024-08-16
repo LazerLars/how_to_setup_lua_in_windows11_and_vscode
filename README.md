@@ -122,7 +122,7 @@ Then you replace the content of the file with this:
           "command": "C:/lua/lua.exe"
         },
         "args": [
-          "main.lua}",
+          "main.lua",
           "debug"
         ]
       },
