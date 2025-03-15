@@ -95,7 +95,7 @@ Create a new project/folder and open that in vs code
 ## Set up debugging
 Create a main.lua file and add the below and press save. The debug part is to activate the debug functionality provided by the Local Lua Debugger Extension.
 ```LUA
-if arg[2] == "debug" then
+if arg[1] == "debug" then
     require("lldebugger").start()
 end
 
